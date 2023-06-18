@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BATCH-1 LECTURE-59</title>
+        <style>
+
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        
+
+        <script>
+            //It gets shorter! If the function has only one statement, and the statement returns a value, you can remove the brackets and the
+            let x=["It", "gets"];
+            let y=[...x, "shoter"];
+            let z=[...y,...x ,"If"];
+            let p=[...z, "the"];
+            let q=[...p, "function"];
+            let r=[...q, "has"];
+            let s=[...r, "only"];
+            let t=[...s, "one"];
+            let u=[...t, "statement,"];
+            let v=[...u, "and"];
+            let w=[...v, "the"];
+            let d=[...w, "statement"];
+            let e=[...d, "return"];
+            let f=[...e, "a"];
+            let g=[...f, "value"];
+
+            console.log(g);
+
+            var paragraph="";
+            for(var i=0; i<g.length;i++){
+                console.log(g[i]);
+                //paragraph=paragraph+ g[i]+" " Not optimised
+                paragraph+= g[i]+" " // Optimised Fast
+            }
+            console.log(paragraph);
+
+        </script>
+    </body>
+</html>
